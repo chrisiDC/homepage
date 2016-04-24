@@ -1,0 +1,67 @@
+@import "settings";
+@import "materialize/sass/materialize";
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.card {
+
+
+  border-radius: 8px;
+}
+
+.card-content {
+
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
+.card-content a {
+  width:100%;
+
+}
+/*.card-content p {
+     border-radius: 8px;
+
+}*/
+
+img {
+
+  height:120px !important;
+}
+
+#light {
+}
+
+#logo
+{
+  height:50px;
+  width:300px;
+}
+
+#m2,#m3 {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+}
+
+@media only screen and (min-width: $medium-screen-up) {
+  #m3
+  {
+    float:right;
+  }
+}

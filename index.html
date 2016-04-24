@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Starter Template - Materialize</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/animate.css" type="text/css" rel="stylesheet"/>
+    <link href="css/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body class="">
+
+
+<div class="container">
+
+    <div id="mainContainer" class="row">
+        <div id="m3_content" class="col s12 l8" hidden>
+            <div class="card z-depth-1 deep-orange darken-4" style="width:100%;height:300px;"></div>
+
+
+        </div>
+        <div id="dummy" class="col m8" hidden>
+
+            &nbsp;
+        </div>
+        <div id="m1" class="col s12 m6 l4">
+
+            <div class="card z-depth-1 deep-orange darken-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="responsive-img activator" src="img/html-css-js.png">
+                </div>
+
+                <div class="card-content center-align">
+                    <h5 class="black-text">Web</h5>
+                    <h5 class="black-text">Entwicklung</h5>
+                    <a class="btn-flat btn-large  deep-orange darken-3 activator">
+                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+                <div class="card-reveal  brown lighten-2">
+
+                    <span class="card-title grey-text text-darken-4">
+                        Das Neueste
+                        <i class="material-icons right" onclick="onM1closed()">close</i>
+                    </span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <div class="card-content">
+                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM1clicked()">
+                            <span>Mehr Infos</span>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="m2" class="col s12 m6 l4">
+
+            <div class="card z-depth-1 blue">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="responsive-img activator" src="img/website-development.png">
+                </div>
+
+                <div class="card-content center-align">
+                    <h5 class="black-text">Mobile</h5>
+                    <h5 class="black-text">Applikationen</h5>
+                    <a class="btn-flat btn-large blue lighten-1 activator">
+                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="card-reveal  brown lighten-2">
+                    <span class="card-title grey-text text-darken-4">Das Neueste<i class="material-icons right"
+                                                                                   onclick="onM2closed()">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <div class="card-content">
+                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM2clicked()">
+                            <span>Mehr Infos</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="m3" class="col s12 m6 l4 offset-m3">
+
+            <div class="card z-depth-1 teal">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="responsive-img activator" id="light" src="img/idea-clipart-idea-md.png">
+                </div>
+
+                <div class="card-content center-align">
+                    <h5 class=" black-text center-align">Technologie</h5>
+                    <h5 class=" black-text center-align">Beratung</h5>
+                    <a class="btn-flat btn-large  teal lighten-1 activator">
+                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="card-reveal  brown lighten-2">
+                    <span class="card-title grey-text text-darken-4">Das Neueste<i class="material-icons right"
+                                                                                   onclick="onM3closed()">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    <div class="card-content">
+                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM3clicked()">
+                            <span>Mehr Infos</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="m1_content" class="col s12 l8 " hidden>
+
+            <div class="card z-depth-1 deep-orange darken-4" style="width:100%;height:300px;"></div>
+
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div id="m2_content" class="col s12 l12" hidden>
+            <div class="card z-depth-1 deep-orange darken-4" style="width:100%;height:300px;"></div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/masonry-horizontal.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
