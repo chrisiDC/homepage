@@ -1,16 +1,6 @@
 @import "materialize/sass/materialize";
 @import "settings";
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-
-}
-
-.parallax-container .section {
-  width: 100%;
-}
 
 //c66120
 
@@ -44,7 +34,7 @@
 }
 
 .brand-background {
-  background-color: #B2D5EE;
+  background-color: lighten(slategrey,20%);
 }
 
 body {
@@ -191,10 +181,40 @@ body {
 
 }*/
 
-.bg-image {
-  opacity: 0.4;
+#logoContainer
+{
+  background: rgba( #5C84A1, .2 );//linear-gradient(to right, rgba( #5C84A1, .2 ), rgba( #5C84A1, .2));
+  //border-radius: 10px;
+  //opacity: 0.5;
+  img
+  {
+    padding:0;
+  }
+}
+
+#bg-image {
+  position:absolute;
+  top:64px;
+  opacity: 0.5;
+  z-index: -1;
+  left:5%;
+  width: 60%;
+  height:40%;
+}
+#bg-raw {
+  background-color: black;
+  position:absolute;
+  opacity: 0.7;
+  z-index: -1;
   width: 100%;
-  //height:100%;
+  //left:30%;
+  height:33%;
+  bottom:0;
+  border-radius: 5px;
+}
+#spacer
+{
+  height:300px;
 }
 
 #mainHeader {
@@ -203,28 +223,62 @@ body {
 
 #m1 {
 
-  //@extend .brand1;
 
+  .links
+  {
+
+    background-image: url("/img/bg09.jpg");
+
+  }
 }
 
 #m2 {
 
-  //@extend .brand2;
+  .links
+  {
+
+    background-image: url("/img/web-development-outline_crop.jpg");
+
+  }
 
 }
 
 #m3 {
 
-  //@extend .brand-neutral;
+  .links
+  {
+
+    background-image: url("/img/bulb-40701_960_720.png");
+
+  }
+
 
 }
 
-.containers {
-  @extend .center;
-  border-radius: 20px;
+.links {
+ /* @extend .center;*/
+  //border-radius: 20px;
   height: 250px;
-  padding-top: 20px !important;
+  //padding-top: 20px !important;
+  background-repeat:no-repeat;
+  //@extend .brand-neutral;
+  background-size: 100% 100%;
+  color:#c66120;
+  p {
+    padding: 5px 10px 10px 10px;
+  };
 }
+#linkbottom
+{
+  @extend .brand-neutral;
+  height:10px;
+}
+
+.main
+{
+  bottom:10px;
+}
+
 .footer{
   position:absolute;
   bottom:0;
