@@ -24,6 +24,7 @@ function onM1clicked() {
     contentShowing = true;
     var d1 = $.Deferred();
     var d2 = $.Deferred();
+    var d3 = $.Deferred();
     $(".trigger").hide();
     m3.animateCss('fadeOut', function () {
         m3.hide();
@@ -34,8 +35,12 @@ function onM1clicked() {
         m2.hide();
         d1.resolve();
     });
+    m1.animateCss('fadeOut', function () {
+        m1.hide();
+        d3.resolve();
+    });
 
-    $.when(d1, d2).done(function () {
+    $.when(d1, d2,d3).done(function () {
         m1_content.show();
         m1_content.animateCss('fadeIn');
     });
@@ -46,6 +51,7 @@ function onM1closed() {
         m1_content.animateCss('fadeOut', function () {
             $(".trigger").show();
             m1_content.hide();
+            m1.show();
             m2.show();
             m3.show();
             //$("#mainContainer").append(m2);
@@ -146,6 +152,8 @@ function onM3closed() {
         });
 
 
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
         //$('#m1_content').hide();
         var grid = $('.grid').isotope({
             layoutMode: 'masonryHorizontal',

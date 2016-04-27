@@ -2092,6 +2092,39 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/img\/8703913582_8f144451bb_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113232,
+		"inputAbbreviatedPath": "\/img\/8703913582_8f144451bb_o.jpg",
+		"outputAbbreviatedPath": "\/img\/8703913582_8f144451bb_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/apple-iphone-smartphone-desk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.18373e+06,
+		"inputAbbreviatedPath": "\/img\/apple-iphone-smartphone-desk.jpg",
+		"outputAbbreviatedPath": "\/img\/apple-iphone-smartphone-desk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99515,
+		"inputAbbreviatedPath": "\/img\/background1.jpg",
+		"outputAbbreviatedPath": "\/img\/background1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bg09.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2125,6 +2158,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bulb-40701_960_720.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66530,
+		"inputAbbreviatedPath": "\/img\/bulb-40701_960_720.png",
+		"outputAbbreviatedPath": "\/img\/bulb-40701_960_720.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Camera.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2132,6 +2176,50 @@
 		"initialSize": 83463,
 		"inputAbbreviatedPath": "\/img\/Camera.png",
 		"outputAbbreviatedPath": "\/img\/Camera.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coffee-apple-iphone-laptop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03425e+07,
+		"inputAbbreviatedPath": "\/img\/coffee-apple-iphone-laptop.jpg",
+		"outputAbbreviatedPath": "\/img\/coffee-apple-iphone-laptop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/health.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23228,
+		"inputAbbreviatedPath": "\/img\/health.png",
+		"outputAbbreviatedPath": "\/img\/health.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/health2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56065,
+		"inputAbbreviatedPath": "\/img\/health2.png",
+		"outputAbbreviatedPath": "\/img\/health2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/horse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39206,
+		"inputAbbreviatedPath": "\/img\/horse.png",
+		"outputAbbreviatedPath": "\/img\/horse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2154,6 +2242,17 @@
 		"initialSize": 82202,
 		"inputAbbreviatedPath": "\/img\/humanizing_technology.png",
 		"outputAbbreviatedPath": "\/img\/humanizing_technology.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ich.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118981,
+		"inputAbbreviatedPath": "\/img\/ich.jpg",
+		"outputAbbreviatedPath": "\/img\/ich.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2191,6 +2290,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/logo_small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18023,
+		"inputAbbreviatedPath": "\/img\/logo_small.png",
+		"outputAbbreviatedPath": "\/img\/logo_small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maxresdefault.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2213,6 +2323,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/responsive-1166833_960_720.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30603,
+		"inputAbbreviatedPath": "\/img\/responsive-1166833_960_720.png",
+		"outputAbbreviatedPath": "\/img\/responsive-1166833_960_720.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/saddle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38560,
+		"inputAbbreviatedPath": "\/img\/saddle.png",
+		"outputAbbreviatedPath": "\/img\/saddle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/technology.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2231,6 +2363,17 @@
 		"initialSize": 101542,
 		"inputAbbreviatedPath": "\/img\/web app develop sit.png",
 		"outputAbbreviatedPath": "\/img\/web app develop sit.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/web-development-outline_crop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.68426e+06,
+		"inputAbbreviatedPath": "\/img\/web-development-outline_crop.jpg",
+		"outputAbbreviatedPath": "\/img\/web-development-outline_crop.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2295,6 +2438,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index2.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

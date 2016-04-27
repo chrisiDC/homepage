@@ -1,67 +1,253 @@
-@import "settings";
 @import "materialize/sass/materialize";
+@import "settings";
 
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
 
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+}
 
-.icon-block {
+.parallax-container .section {
+  width: 100%;
+}
+
+//c66120
+
+.brand-neutral {
+  @extend .blue-grey, .lighten-2;
+}
+
+.brand1 {
+  background-color: #3c6888;
+  //@extend .indigo,.lighten-1;
+}
+
+.brand-font {
+  color: #3c6888;
+}
+
+.brand2 {
+  background-color: #5C84A1;
+}
+
+.brand2-alt {
+  @extend .blue;
+}
+
+.brand3 {
+  background-color: #D49D56;
+}
+
+.brand3-alt {
+  @extend .teal;
+}
+
+.brand-background {
+  background-color: #B2D5EE;
+}
+
+body {
+  @extend .brand-background;
+}
+
+/*.icon-block {
   padding: 0 15px;
 }
 
 .icon-block .material-icons {
   font-size: inherit;
-}
+}*/
 
-.card {
-
+/*.card {
 
   border-radius: 8px;
 }
 
 .card-content {
 
-  padding-left:0px !important;
-  padding-right:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .card-content a {
-  width:100%;
+  width: 100%;
 
 }
-/*.card-content p {
+
+!*.card-content p {
      border-radius: 8px;
 
+}*!
+
+.card-image {
+
+  img {
+
+    height: 120px !important;
+  }
 }*/
-
-img {
-
-  height:120px !important;
-}
 
 #light {
 }
 
-#logo
-{
-  height:50px;
-  width:300px;
+#logo {
+  height: 50px;
+  width: 300px;
+  padding-top: 10px;
 }
 
-#m2,#m3 {
+/*#m2, #m3 {
   -webkit-animation-duration: 0.5s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
-}
+}*/
 
-@media only screen and (min-width: $medium-screen-up) {
-  #m3
-  {
-    float:right;
+/*@media only screen and (min-width: $medium-screen-up) {
+  #m3 {
+    float: right;
   }
 }
+
+.collapsible-body {
+  padding-top: 15px;
+  padding-left: 0px;
+  header h5 {
+    margin: 0px;
+  }
+
+  section {
+    padding-bottom: 15px;
+
+  }
+
+  p, blockquote, b {
+    padding: 0;
+    padding-left: 10px;
+  }
+}*/
+
+.collection .collection-item {
+  border-bottom: 1px solid black;
+
+}
+
+.collapsible-header {
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  border-bottom: 1px solid black;
+}
+
+.collapsible-body {
+  padding-left: 5%;
+  padding-right: 5%;
+  border-bottom: 1px solid black;
+}
+
+/*#m1 .card-reveal
+{
+  font-size: 13px;
+}
+#m1_content {
+  .collapsible-header {
+    @extend .brand1;
+
+  }
+  .collapsible-body {
+    @extend .brand-neutral;
+  }
+  li {
+    @extend .brand-neutral;
+  }
+
+}
+
+#m2_content {
+  .collapsible-header {
+    @extend .brand2;
+  }
+  .collapsible-body {
+    @extend .brand-neutral;
+  }
+  li {
+    @extend .brand-neutral;
+  }
+
+}
+
+#m3_content {
+  .collapsible-header {
+    @extend .brand3;
+  }
+  .collapsible-body {
+    @extend .brand-neutral;
+  }
+  li {
+    @extend .brand-neutral;
+  }
+
+}*/
+
+.bg-image {
+  opacity: 0.4;
+  width: 100%;
+  //height:100%;
+}
+
+#mainHeader {
+  margin-top: 0px;
+}
+
+#m1 {
+
+  //@extend .brand1;
+
+}
+
+#m2 {
+
+  //@extend .brand2;
+
+}
+
+#m3 {
+
+  //@extend .brand-neutral;
+
+}
+
+.containers {
+  @extend .center;
+  border-radius: 20px;
+  height: 250px;
+  padding-top: 20px !important;
+}
+.footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  @extend .brand1;
+  opacity: 0.3;
+  p{
+    opacity: 1.0;
+  }
+}
+
+#m1_content {
+  .collapsible-header {
+    @extend .brand1;
+
+  }
+  .collapsible-body {
+    @extend .brand-neutral;
+  }
+  li {
+    @extend .brand-neutral;
+  }
+
+}
+

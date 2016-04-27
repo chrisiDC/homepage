@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-    <title>Starter Template - Materialize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>Parallax Template - Materialize</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,161 +11,438 @@
     <link href="css/animate.css" type="text/css" rel="stylesheet"/>
     <link href="css/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body class="">
+<body>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper brand1">
 
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="sass.html" class="black-text">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">Javascript</a></li>
+                <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
-<div class="container">
+<div id="index-banner" class="parallax-container">
+    <div class="section">
+        <div class="container">
 
-    <ul class="collapsible popout" data-collapsible="accordion">
-        <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i>Das richtige Pferd</div>
-            <div class="collapsible-body">
-                <p class="flow-text">
-                    Javascript.Das Land der unendlichen Möglichkeiten.
-                    Alles ist neu. Alles ist cool. Wenigstens heute. Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?
-                    You came to the right place, my friend!
-
-                    Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem optimalen Fundament zu
-                    positionieren.
-                    Modern. Langlebig. Effizient.
-                    Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
-                </p></div>
-        </li>
-        <li>
-            <div class="collapsible-header"><i class="material-icons">place</i>Sattelfest</div>
-            <div class="collapsible-body">
-                <p>
-                    Ein kräftiger, eleganter Lipizzaner. Gute Wahl!
-                    Jetzt fehlt nur noch der passende Reiter.
-                    Jemand, der Erfahrung hat.
-                    Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis gelernt hat.
-                    "Best Practices" - eine Technologie optimal einsetzen, das ist mein Ziel.
-                    Wir wollen ja nicht vom Pferd fallen!
-                </p>
+            <img id="" class="responsive-img brand-logo center" src="img/logo_small.png">
+            <!--   <h1 class="header center brand-font">Groovybytes</h1>-->
+            <div class="row center">
+                <h4 id="mainHeader" class="header col s12 brand-font">Webagentur. </h4>
             </div>
-        </li>
-        <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i>Auf präparierten Wegen</div>
-            <div class="collapsible-body">
-                <p>
-                    Ein exzellentes (Software) - Produkt. Soll heissen: die Anwender lieben es.
-                    Oder nicht?
-
-                </p>
-            </div>
-        </li>
-    </ul>
-
-    <div id="mainContainer" class="row">
-        <div id="m3_content" class="col s12 l8" hidden>
-            <div class="card z-depth-1 deep-orange darken-4" style="width:100%;height:300px;"></div>
-
 
         </div>
-        <div id="dummy" class="col m8" hidden>
+    </div>
+    <div class="parallax"><img class="bg-image" src="img/responsive-1166833_960_720.png"
+                               alt="Unsplashed background img 1"></div>
+</div>
 
-            &nbsp;
-        </div>
-        <div id="m1" class="col s12 m6 l4">
+<!--
+<div id="mainContainer" class="row" hidden>
+    <div id="m3_content" class="col s12 l8" hidden>
+        <div class="card z-depth-1 brand3" style="width:100%;height:300px;"></div>
 
-            <div class="card z-depth-1 deep-orange darken-4">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="responsive-img activator" src="img/html-css-js.png">
-                </div>
 
-                <div class="card-content center-align">
-                    <h5 class="black-text">Web</h5>
-                    <h5 class="black-text">Entwicklung</h5>
-                    <a class="btn-flat btn-large  deep-orange darken-3 activator">
-                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
-                    </a>
+    </div>
+    <div id="dummy" class="col m8" hidden>
 
-                </div>
-                <div class="card-reveal  brown lighten-2">
+        &nbsp;
+    </div>
+    <div id="m1" class="col s12 m6 l4">
+
+        <div class="card z-depth-1 brand1">
+
+
+            <div class="card-content center-align">
+                <h5 class="black-text">Web</h5>
+                <h5 class="black-text">Entwicklung</h5>
+                <a class="btn-flat btn-large  brand1 activator">
+                    <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                </a>
+
+            </div>
+            <div class="card-reveal brand-neutral">
 
                     <span class="card-title grey-text text-darken-4">
 
                         <i class="material-icons right" onclick="onM1closed()">close</i>
                     </span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    <div class="card-content">
-                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM1clicked()">
-                            <span>Mehr Infos</span>
-                        </a>
+                <p><b>Mein Beruf, mein Hobby, meine Leidenschaft.</b><br>
+                    Ich setze heute auf meine Erfahrung von mehr als 15 Jahren in der Praxis.
+                    Mit unterschiedlichsten Technologien. Wie beispielsweise ASP.NET, Java, oder node.js.
 
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div id="m2" class="col s12 m6 l4">
-
-            <div class="card z-depth-1 blue">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="responsive-img activator" src="img/website-development.png">
-                </div>
-
-                <div class="card-content center-align">
-                    <h5 class="black-text">Mobile</h5>
-                    <h5 class="black-text">Applikationen</h5>
-                    <a class="btn-flat btn-large blue lighten-1 activator">
-                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                </p>
+                <div class="card-content">
+                    <a class="btn-flat btn-large brand-neutral lighten-1 trigger" onclick="onM1clicked()">
+                        <span>Mehr Infos</span>
                     </a>
+
                 </div>
-                <div class="card-reveal  brown lighten-2">
+            </div>
+
+        </div>
+    </div>
+    <div id="m2" class="col s12 m6 l4">
+
+        <div class="card z-depth-1 brand2">
+            &lt;!&ndash;  <div class="card-image waves-effect waves-block waves-light">
+                <img class="responsive-img activator" src="img/website-development.png">
+              </div>&ndash;&gt;
+
+            <div class="card-content center-align">
+                <h5 class="black-text">Mobile</h5>
+                <h5 class="black-text">Applikationen</h5>
+                &lt;!&ndash; <a class="btn-flat btn-large brand2 activator">
+                   <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                 </a>&ndash;&gt;
+            </div>
+            <div class="card-reveal brand-neutral ">
                     <span class="card-title grey-text text-darken-4">Das Neueste<i class="material-icons right"
                                                                                    onclick="onM2closed()">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    <div class="card-content">
-                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM2clicked()">
-                            <span>Mehr Infos</span>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div id="m3" class="col s12 m6 l4 offset-m3">
-
-            <div class="card z-depth-1 teal">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="responsive-img activator" id="light" src="img/idea-clipart-idea-md.png">
-                </div>
-
-                <div class="card-content center-align">
-                    <h5 class=" black-text center-align">Technologie</h5>
-                    <h5 class=" black-text center-align">Beratung</h5>
-                    <a class="btn-flat btn-large  teal lighten-1 activator">
-                        <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <div class="card-content">
+                    <a class="btn-flat btn-large brand-neutral lighten-1 trigger" onclick="onM2clicked()">
+                        <span>Mehr Infos</span>
                     </a>
                 </div>
-                <div class="card-reveal  brown lighten-2">
+            </div>
+
+        </div>
+    </div>
+    <div id="m3" class="col s12 m6 l4 offset-m3">
+
+        <div class="card z-depth-1 brand-neutral">
+            &lt;!&ndash;  <div class="card-image waves-effect waves-block waves-light">
+                <img class="responsive-img activator" id="light" src="img/bulb-40701_960_720.png">
+              </div>&ndash;&gt;
+
+            <div class="card-content center-align">
+                <h5 class=" black-text center-align">Technologie</h5>
+                <h5 class=" black-text center-align">Beratung</h5>
+                &lt;!&ndash; <a class="btn-flat btn-large brand-neutral activator">
+                   <i class="fa fa-chevron-up fa-3x" aria-hidden="true"></i>
+                 </a>&ndash;&gt;
+            </div>
+            <div class="card-reveal brand-neutral">
                     <span class="card-title grey-text text-darken-4">Das Neueste<i class="material-icons right"
                                                                                    onclick="onM3closed()">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    <div class="card-content">
-                        <a class="btn-flat btn-large brown lighten-1 trigger" onclick="onM3clicked()">
-                            <span>Mehr Infos</span>
-                        </a>
-                    </div>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <div class="card-content">
+                    <a class="btn-flat btn-large brand-neutral lighten-1 trigger" onclick="onM3clicked()">
+                        <span>Mehr Infos</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="m1_content" class="col s12 l8 " hidden>
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header"><img class="" src="img/horse.png">&nbsp;&nbsp;Das richtige Pferd
+                </div>
+                <div class="collapsible-body">
+
+                    <header class="">
+                        <h5>Javascript. Das Land der unendlichen Möglichkeiten</h5>
+                        <small>Alles ist neu. Alles ist cool. Hoch lebe der Hype!</small>
+                    </header>
+                    <section>
+                        <p> Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?<br>
+                            Vielleicht sollten wir und das nochmal überlegen.<br>
+                            Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem optimalen
+                            Fundament zu
+                            positionieren.<br>
+                            <i>Modern. Langlebig. Effizient.</i><br>
+                            Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
+                        </p>
+
+                    </section>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><img class="" src="img/saddle.png">&nbsp;&nbsp;Sattelfest</div>
+                <div class="collapsible-body">
+                    <section>
+                        <p>
+                            Ein kräftiger, eleganter Lipizzaner. Gute Wahl!<br>
+                            Jetzt fehlt nur noch der passende Reiter. Jemand, der Erfahrung hat.<br>
+                            Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis gelernt hat.<br>
+                        <blockquote>Best Practices</blockquote>
+                        Eine Technologie optimal einsetzen, das ist mein Ziel.<br>
+                        Wir wollen ja nicht vom Pferd fallen!
+                        </p>
+
+                    </section>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header"><img class="" src="img/health.png">&nbsp;&nbsp;Das ärztliche Attest
+                </div>
+                <div class="collapsible-body">
+
+                    <header class="">
+                        <h5>Die perfekte Webseite. Das perfekte Programm.</h5>
+                        <small>Soll heissen: Es funktioniert und die Anwender lieben es.</small>
+                    </header>
+                    <section>
+                        <p>
+                            Oder nicht?<br>
+                            Nicht ganz. Andere Qualitätsmerkmale sind beispielweise:
+                        </p>
+                        <br>
+                        <ul class="collection">
+
+                            <li class="collection-item">Wie hoch ist der Aufwand, Änderungen vorzunehmen?</li>
+                            <li class="collection-item"> Wie kann die Funktionalität der Änderungen sichergestellt
+                                werden?
+                            </li>
+                            <li class="collection-item"> Ein neuer Entwickler muss in das Team integriert
+                                werden.<br>
+                                Wie hoch wird der Aufwand für ihn sein, das Produkt ohne Hilfe warten zu können?
+                            </li>
+                            <li class="collection-item"> Ist der Code modular aufgebaut? Kann beispielweise ohne
+                                hohen
+                                Aufwand eine andere Datenbank
+                                verwendet werden?
+                            </li>
+
+                        </ul>
+                        <br>
+                        <p>
+                            Ein starkes Rennpferd zu haben, das vor Vitalität nur so strotzt. Das ist mein Ziel.
+                        </p>
+
+                    </section>
+
+                </div>
+            </li>
+        </ul>
+
+
+    </div>
+
+</div>
+<div class="row">
+    <div id="m2_content" class="col s12 l12" hidden>
+        <section>
+
+            <h5>Der Ring, sie alle zu knechten</h5>
+            <small>Ios. Android. Windows Phone</small>
+            <p>
+            <blockquote>write once, run anywhere</blockquote>
+            <b>Meine Philosophie.</b>
+            <p>
+                Ich sehe nicht die Notwendigkeit, ein Meister der Redundanz zu werden.
+                Mir ist es wichtig
+            </p>
+            <ul class="collection">
+                <li class="collection-item">
+                    Meine vorhandenen Skills anzuwenden und zu perfektionieren
+                </li>
+                <li class="collection-item">
+                    xxxxxxx
+                </li>
+            </ul>
+            <p>
+                Mir ist es nicht wichtig
+            </p>
+            <ul class="collection">
+                <li class="collection-item">
+                    In eine Materie hineinzuschnuppern und auf Basis der Erkenntnisse professionelle Dienste anzubieten
+                </li>
+            </ul>
+            <p>
+                Und was ist nun der Ring? <br>
+                HTML, Javascript, CSS. Die üblichen Verdächtigen. Nur von den besten geschmiedet.
+                Mit einem Werzeug wie beispielweise "Ionic".
+            </p>
+
+
+        </section>
+    </div>
+</div>-->
+
+
+<div class="container">
+    <div class="row"></div>
+    <!--   Icon Section   -->
+    <div class="row">
+        <div id="m1" class="col s12 m3 offset-m1">
+            <div class="brand2 containers">
+                <i class="material-icons medium">stay_current_portrait</i>
+
+                <h5 class="center">Mobile Applikationen</h5>
+
+                <p class="">xxvxcv</p>
+
+            </div>
+
+        </div>
+
+
+        <div id="m2" class="col s12 m4">
+            <div class="brand1 containers">
+                <i class="material-icons medium">web</i>
+                <div class="divider"></div>
+                <h5 class="center">Webentwicklung</h5>
+
+                <p class="light"></p>
+                <a class="btn-flat btn-large brand-neutral lighten-1 trigger" onclick="onM1clicked()">
+                    <span>Mehr Infos</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="m3" class="col s12 m3">
+            <div class="brand-neutral containers">
+                <i class="material-icons medium">info</i>
+                <h5 class="center">Technologieberatung</h5>
+
+                <p class="light"></p>
+            </div>
+
+        </div>
+        <div id="m1_content" class="col s12 l8 offset-l2" hidden>
+
+            <div class="card brand-neutral">
+
+                <div class="card-content white-text">
+                    <span class="card-title">Meine Philsophie </span>
+                    <a class="btn-floating btn-large  brand1 right" onclick="onM1closed()"><i class="material-icons">close</i></a>
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><img class="" src="img/horse.png">&nbsp;&nbsp;Das richtige
+                                Pferd
+                            </div>
+                            <div class="collapsible-body">
+
+                                <header class="">
+                                    <h5>Javascript. Das Land der unendlichen Möglichkeiten</h5>
+                                    <small>Alles ist neu. Alles ist cool. Hoch lebe der Hype!</small>
+                                </header>
+                                <section>
+                                    <p> Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?<br>
+                                        Vielleicht sollten wir und das nochmal überlegen.<br>
+                                        Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem optimalen
+                                        Fundament zu
+                                        positionieren.<br>
+                                        <i>Modern. Langlebig. Effizient.</i><br>
+                                        Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
+                                    </p>
+
+                                </section>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><img class="" src="img/saddle.png">&nbsp;&nbsp;Sattelfest
+                            </div>
+                            <div class="collapsible-body">
+                                <section>
+                                    <p>
+                                        Ein kräftiger, eleganter Lipizzaner. Gute Wahl!<br>
+                                        Jetzt fehlt nur noch der passende Reiter. Jemand, der Erfahrung hat.<br>
+                                        Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis gelernt
+                                        hat.<br>
+                                    <blockquote>Best Practices</blockquote>
+                                    Eine Technologie optimal einsetzen, das ist mein Ziel.<br>
+                                    Wir wollen ja nicht vom Pferd fallen!
+                                    </p>
+
+                                </section>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><img class="" src="img/health.png">&nbsp;&nbsp;Das ärztliche
+                                Attest
+                            </div>
+                            <div class="collapsible-body">
+
+                                <header class="">
+                                    <h5>Die perfekte Webseite. Das perfekte Programm.</h5>
+                                    <small>Soll heissen: Es funktioniert und die Anwender lieben es.</small>
+                                </header>
+                                <section>
+                                    <p>
+                                        Oder nicht?<br>
+                                        Nicht ganz. Andere Qualitätsmerkmale sind beispielweise:
+                                    </p>
+                                    <br>
+                                    <ul class="collection">
+
+                                        <li class="collection-item">Wie hoch ist der Aufwand, Änderungen vorzunehmen?
+                                        </li>
+                                        <li class="collection-item"> Wie kann die Funktionalität der Änderungen
+                                            sichergestellt
+                                            werden?
+                                        </li>
+                                        <li class="collection-item"> Ein neuer Entwickler muss in das Team integriert
+                                            werden.<br>
+                                            Wie hoch wird der Aufwand für ihn sein, das Produkt ohne Hilfe warten zu
+                                            können?
+                                        </li>
+                                        <li class="collection-item"> Ist der Code modular aufgebaut? Kann beispielweise
+                                            ohne
+                                            hohen
+                                            Aufwand eine andere Datenbank
+                                            verwendet werden?
+                                        </li>
+
+                                    </ul>
+                                    <br>
+                                    <p>
+                                        Ein starkes Rennpferd zu haben, das vor Vitalität nur so strotzt. Das ist mein
+                                        Ziel.
+                                    </p>
+
+                                </section>
+
+                            </div>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
         </div>
-        <div id="m1_content" class="col s12 l8 " hidden>
-
-
-        </div>
 
     </div>
-    <div class="row">
-        <div id="m2_content" class="col s12 l12" hidden>
-            <div class="card z-depth-1 deep-orange darken-4" style="width:100%;height:300px;"></div>
-        </div>
-    </div>
-
-
 </div>
+</div>
+
+<!--
+<div class=" footer ">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <p>das ist mein text</p>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>-->
 
 
 <!--  Scripts-->
@@ -174,6 +451,7 @@
 <script src="js/isotope.min.js"></script>
 <script src="js/masonry-horizontal.js"></script>
 <script src="js/init.js"></script>
+
 
 </body>
 </html>
