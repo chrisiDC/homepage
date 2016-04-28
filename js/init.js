@@ -21,6 +21,25 @@ $.fn.extend({
 });
 
 function onM1clicked() {
+
+    $("#row1").animateCss('slideOutRight', function () {
+        $("#row1").hide();
+        $("#row2").show();
+        $("#row2").animateCss('slideInRight');
+    });
+
+}function onClose() {
+
+
+    $("#row2").animateCss('slideOutRight', function () {
+        $("#row2").hide();
+        $("#row1").show();
+        $("#row1").animateCss('slideInRight');
+    });
+
+}
+/*
+function onM1clicked() {
     contentShowing = true;
     var d1 = $.Deferred();
     var d2 = $.Deferred();
@@ -45,6 +64,7 @@ function onM1clicked() {
         m1_content.animateCss('fadeIn');
     });
 }
+*/
 
 function onM1closed() {
     if (contentShowing) {
@@ -146,12 +166,15 @@ function onM3closed() {
         m1 = $("#m1");
         m2 = $("#m2");
         m3 = $("#m3");
+        $('ul.tabs').tabs();
+
         $('.button-collapse').sideNav();
         $('.collapsible').collapsible({
             accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
         });
 
-
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
         //$('#m1_content').hide();

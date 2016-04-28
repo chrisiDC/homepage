@@ -13,6 +13,28 @@
 </head>
 <body>
 
+<a
+        class="btn-flat small brand-neutral lighten-1" onclick="onClose()">
+    <span>X</span>
+</a>
+
+
+<div id="modal1" class="modal">
+    <div class="modal-content">
+
+        <iframe
+
+                src="https://www.google.com/maps/embed/v1/place?q=Franz-Fritsch-Straße+11,+Wels,+Austria&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU">
+
+        </iframe>
+
+    </div>
+
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close btn brand-neutral lighten-1  ">Schliessen</a>
+    </div>
+</div>
+
 
 <div class="row"></div>
 <div id="logoContainer" class="row">
@@ -23,19 +45,96 @@
         </h5>
     </div>
 </div>
-<!-- <div class="row">
-     <div class="col s8 offset-s4">
-         <h4 id="mainHeader" class="header brand-font right">Webagentur. </h4>
-     </div>
- </div>-->
+
 <div id="spacer" class="row"></div>
 
-<div class="row">
+
+<div id="row2" class="row" hidden>
+    <div class="col s12">
+        <ul class="tabs">
+            <li class="tab col s3 brand1"><a class="active" href="#m4">
+                <img class="" src="img/horse.png">&nbsp;&nbsp;Das richtige Pferd
+            </a>
+            </li>
+            <li class="tab col s3 brand2"><a href="#m5"><img class="" src="img/saddle.png">&nbsp;&nbsp;<span>Sattelfest</span></a></li>
+            <li class="tab col s3 brand3"><a href="#m6"><img class="" src="img/health.png">&nbsp;&nbsp;Das
+                ärztliche
+                Attest</a></li>
+        </ul>
+    </div>
+    <div id="m4" class="col s12">
+        <b>Javascript. Das Land der unendlichen Möglichkeiten</b><br>
+        <small>Alles ist neu. Alles ist cool. Hoch lebe der Hype!</small>
+        <p> Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?<br>
+            Vielleicht sollten wir und das nochmal überlegen.<br>
+            Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem
+            optimalen
+            Fundament zu
+            positionieren.<br>
+            <i>Modern. Langlebig. Effizient.</i><br>
+            Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
+        </p>
+    </div>
+    <div id="m5" class="col s12">
+
+
+        <p>
+            Ein kräftiger, eleganter Lipizzaner. Gute Wahl!<br>
+            Jetzt fehlt nur noch der passende Reiter. Jemand, der Erfahrung hat.<br>
+            Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis
+            gelernt
+            hat.<br>
+        <blockquote>Best Practices</blockquote>
+        Eine Technologie optimal einsetzen, das ist mein Ziel.<br>
+        Wir wollen ja nicht vom Pferd fallen!
+        </p>
+    </div>
+    <div id="m6" class="col s12">
+
+        <h5>Die perfekte Webseite. Das perfekte Programm.</h5>
+        <small>Soll heissen: Es funktioniert und die Anwender lieben es.</small>
+
+
+        <p>
+            Oder nicht?<br>
+            Nicht ganz. Andere Qualitätsmerkmale sind beispielweise:
+        </p>
+        <ul class="collection">
+
+            <li class="collection-item">Wie hoch ist der Aufwand, Änderungen
+                vorzunehmen?
+            </li>
+            <li class="collection-item"> Wie kann die Funktionalität der Änderungen
+                sichergestellt
+                werden?
+            </li>
+            <li class="collection-item"> Ein neuer Entwickler muss in das Team
+                integriert
+                werden.<br>
+                Wie hoch wird der Aufwand für ihn sein, das Produkt ohne Hilfe warten zu
+                können?
+            </li>
+            <li class="collection-item"> Ist der Code modular aufgebaut? Kann
+                beispielweise
+                ohne
+                hohen
+                Aufwand eine andere Datenbank
+                verwendet werden?
+            </li>
+
+        </ul>
+        <p>
+            Ein starkes Rennpferd zu haben, das vor Vitalität nur so strotzt. Das ist
+            mein
+            Ziel.
+        </p>
+
+    </div>
+</div>
+<div id="row1" class="row">
     <div id="m1" class="col s12 m4 no-padding">
         <div class=" links">
-            <p class="center">Mobile Applikationen</p>
-
-            <p class="">xxvxcv</p>
+            <p class="">Mobile Applikationen</p>
 
         </div>
 
@@ -45,9 +144,8 @@
     <div id="m2" class="col s12 m4 no-padding">
         <div class=" links">
 
-            <p class="center">Webentwicklung</p>
+            <p class="">Webentwicklung</p>
 
-            <p class="light"></p>
             <a class="btn-flat btn-large brand-neutral lighten-1 trigger" onclick="onM1clicked()">
                 <span>Mehr Infos</span>
             </a>
@@ -58,7 +156,7 @@
     <div id="m3" class="col s12 m4 no-padding">
 
         <div class="links">
-        <!--    <i class="material-icons medium">info</i>-->
+            <!--    <i class="material-icons medium">info</i>-->
             <p class="">Technologieberatung</p>
 
             <p class="light"></p>
@@ -68,129 +166,132 @@
     <div class="row">
         <div id="linkbottom" class="col s12">&nbsp;</div>
     </div>
-    <div id="m1_content" class="col s12 l8 offset-l2" hidden>
-
-        <div class="card brand-neutral">
-
-            <div class="card-content white-text">
-                <span class="card-title">Meine Philsophie </span>
-                <a class="btn-floating btn-large  brand1 right" onclick="onM1closed()"><i
-                        class="material-icons">close</i></a>
-                <ul class="collapsible popout" data-collapsible="accordion">
-                    <li>
-                        <div class="collapsible-header"><img class="" src="img/horse.png">&nbsp;&nbsp;Das
-                            richtige
-                            Pferd
-                        </div>
-                        <div class="collapsible-body">
-
-                            <header class="">
-                                <h5>Javascript. Das Land der unendlichen Möglichkeiten</h5>
-                                <small>Alles ist neu. Alles ist cool. Hoch lebe der Hype!</small>
-                            </header>
-                            <section>
-                                <p> Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?<br>
-                                    Vielleicht sollten wir und das nochmal überlegen.<br>
-                                    Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem
-                                    optimalen
-                                    Fundament zu
-                                    positionieren.<br>
-                                    <i>Modern. Langlebig. Effizient.</i><br>
-                                    Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
-                                </p>
-
-                            </section>
+    <!-- <div id="m1_content" class="col s12 l8 offset-l2" hidden>
 
 
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><img class="" src="img/saddle.png">&nbsp;&nbsp;Sattelfest
-                        </div>
-                        <div class="collapsible-body">
-                            <section>
-                                <p>
-                                    Ein kräftiger, eleganter Lipizzaner. Gute Wahl!<br>
-                                    Jetzt fehlt nur noch der passende Reiter. Jemand, der Erfahrung hat.<br>
-                                    Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis
-                                    gelernt
-                                    hat.<br>
-                                <blockquote>Best Practices</blockquote>
-                                Eine Technologie optimal einsetzen, das ist mein Ziel.<br>
-                                Wir wollen ja nicht vom Pferd fallen!
-                                </p>
+         <span class="">Meine Philsophie </span>
+         <a class="btn-floating btn-large  brand1 right" onclick="onM1closed()"><i
+                 class="material-icons">close</i></a>
+         <ul class="collapsible popout" data-collapsible="accordion">
+             <li>
+                 <div class="collapsible-header"><img class="" src="img/horse.png">&nbsp;&nbsp;Das
+                     richtige
+                     Pferd
+                 </div>
+                 <div class="collapsible-body">
 
-                            </section>
+                     <header class="">
+                         <h5>Javascript. Das Land der unendlichen Möglichkeiten</h5>
+                         <small>Alles ist neu. Alles ist cool. Hoch lebe der Hype!</small>
+                     </header>
+                     <section>
+                         <p> Und wenn wir fertig sind, fangen wir von vorne an. Oder wie?<br>
+                             Vielleicht sollten wir und das nochmal überlegen.<br>
+                             Als ihr Entwicklungs-Partner ist es meine Aufgabe, ihr Produkt auf dem
+                             optimalen
+                             Fundament zu
+                             positionieren.<br>
+                             <i>Modern. Langlebig. Effizient.</i><br>
+                             Von Anfang an auf das richtige Pferd setzen, das ist mein Ziel.
+                         </p>
+
+                     </section>
 
 
-                        </div>
-                    </li>
-                    <li>
-                        <div class="collapsible-header"><img class="" src="img/health.png">&nbsp;&nbsp;Das
-                            ärztliche
-                            Attest
-                        </div>
-                        <div class="collapsible-body">
+                 </div>
+             </li>
+             <li>
+                 <div class="collapsible-header"><img class="" src="img/saddle.png">&nbsp;&nbsp;Sattelfest
+                 </div>
+                 <div class="collapsible-body">
+                     <section>
+                         <p>
+                             Ein kräftiger, eleganter Lipizzaner. Gute Wahl!<br>
+                             Jetzt fehlt nur noch der passende Reiter. Jemand, der Erfahrung hat.<br>
+                             Jemand, der nicht nur das Handbuch gelesen hat, sondern aus der Praxis
+                             gelernt
+                             hat.<br>
+                         <blockquote>Best Practices</blockquote>
+                         Eine Technologie optimal einsetzen, das ist mein Ziel.<br>
+                         Wir wollen ja nicht vom Pferd fallen!
+                         </p>
 
-                            <header class="">
-                                <h5>Die perfekte Webseite. Das perfekte Programm.</h5>
-                                <small>Soll heissen: Es funktioniert und die Anwender lieben es.</small>
-                            </header>
-                            <section>
-                                <p>
-                                    Oder nicht?<br>
-                                    Nicht ganz. Andere Qualitätsmerkmale sind beispielweise:
-                                </p>
-                                <br>
-                                <ul class="collection">
+                     </section>
 
-                                    <li class="collection-item">Wie hoch ist der Aufwand, Änderungen
-                                        vorzunehmen?
-                                    </li>
-                                    <li class="collection-item"> Wie kann die Funktionalität der Änderungen
-                                        sichergestellt
-                                        werden?
-                                    </li>
-                                    <li class="collection-item"> Ein neuer Entwickler muss in das Team
-                                        integriert
-                                        werden.<br>
-                                        Wie hoch wird der Aufwand für ihn sein, das Produkt ohne Hilfe warten zu
-                                        können?
-                                    </li>
-                                    <li class="collection-item"> Ist der Code modular aufgebaut? Kann
-                                        beispielweise
-                                        ohne
-                                        hohen
-                                        Aufwand eine andere Datenbank
-                                        verwendet werden?
-                                    </li>
 
-                                </ul>
-                                <br>
-                                <p>
-                                    Ein starkes Rennpferd zu haben, das vor Vitalität nur so strotzt. Das ist
-                                    mein
-                                    Ziel.
-                                </p>
+                 </div>
+             </li>
+             <li>
+                 <div class="collapsible-header"><img class="" src="img/health.png">&nbsp;&nbsp;Das
+                     ärztliche
+                     Attest
+                 </div>
+                 <div class="collapsible-body">
 
-                            </section>
+                     <header class="">
+                         <h5>Die perfekte Webseite. Das perfekte Programm.</h5>
+                         <small>Soll heissen: Es funktioniert und die Anwender lieben es.</small>
+                     </header>
+                     <section>
+                         <p>
+                             Oder nicht?<br>
+                             Nicht ganz. Andere Qualitätsmerkmale sind beispielweise:
+                         </p>
+                         <br>
+                         <ul class="collection">
 
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                             <li class="collection-item">Wie hoch ist der Aufwand, Änderungen
+                                 vorzunehmen?
+                             </li>
+                             <li class="collection-item"> Wie kann die Funktionalität der Änderungen
+                                 sichergestellt
+                                 werden?
+                             </li>
+                             <li class="collection-item"> Ein neuer Entwickler muss in das Team
+                                 integriert
+                                 werden.<br>
+                                 Wie hoch wird der Aufwand für ihn sein, das Produkt ohne Hilfe warten zu
+                                 können?
+                             </li>
+                             <li class="collection-item"> Ist der Code modular aufgebaut? Kann
+                                 beispielweise
+                                 ohne
+                                 hohen
+                                 Aufwand eine andere Datenbank
+                                 verwendet werden?
+                             </li>
 
-        </div>
-    </div>
+                         </ul>
+                         <br>
+                         <p>
+                             Ein starkes Rennpferd zu haben, das vor Vitalität nur so strotzt. Das ist
+                             mein
+                             Ziel.
+                         </p>
+
+                     </section>
+
+                 </div>
+             </li>
+         </ul>
+     </div>-->
+
 
 </div>
-
-
 <img id="bg-image" class="" src="img/responsive-1166833_960_720.png">
-<div id="bg-raw" class="">&nbsp;</div>
+<div id="bg-raw" class="">
+    <p class="footer-text">Groovybytes | Franz Fritsch Strasse 11 | 4600 Wels &nbsp;<a id="show-map"
+                                                                                       class="btn-floating modal-trigger "
+                                                                                       href="#modal1">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+    </a>
 
+    <p>
+        <!--   <a id="show-map" class="btn-floating btn-large modal-trigger " href="#modal1">
+               <i class="fa fa-map-marker" aria-hidden="true"></i>
+           </a>-->
+</div>
 
-<!--  Scripts-->
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/isotope.min.js"></script>
