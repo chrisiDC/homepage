@@ -2114,6 +2114,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/background-1201003_960_720.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102662,
+		"inputAbbreviatedPath": "\/img\/background-1201003_960_720.jpg",
+		"outputAbbreviatedPath": "\/img\/background-1201003_960_720.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/background1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2143,6 +2154,39 @@
 		"initialSize": 1.87085e+06,
 		"inputAbbreviatedPath": "\/img\/bg2.jpg",
 		"outputAbbreviatedPath": "\/img\/bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/blue-background-clipart.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57678,
+		"inputAbbreviatedPath": "\/img\/blue-background-clipart.jpg",
+		"outputAbbreviatedPath": "\/img\/blue-background-clipart.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Blue-Wallpaper-colors-34503103-1440-900.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.16936e+06,
+		"inputAbbreviatedPath": "\/img\/Blue-Wallpaper-colors-34503103-1440-900.png",
+		"outputAbbreviatedPath": "\/img\/Blue-Wallpaper-colors-34503103-1440-900.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/brown-background-waves.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186167,
+		"inputAbbreviatedPath": "\/img\/brown-background-waves.jpg",
+		"outputAbbreviatedPath": "\/img\/brown-background-waves.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2312,6 +2356,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/maxresdefault-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6676,
+		"inputAbbreviatedPath": "\/img\/maxresdefault-2.jpg",
+		"outputAbbreviatedPath": "\/img\/maxresdefault-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maxresdefault.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2352,6 +2407,28 @@
 		"initialSize": 38560,
 		"inputAbbreviatedPath": "\/img\/saddle.png",
 		"outputAbbreviatedPath": "\/img\/saddle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sky-232000_960_720.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25022,
+		"inputAbbreviatedPath": "\/img\/sky-232000_960_720.jpg",
+		"outputAbbreviatedPath": "\/img\/sky-232000_960_720.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/spiderweb-29368_960_720.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151537,
+		"inputAbbreviatedPath": "\/img\/spiderweb-29368_960_720.png",
+		"outputAbbreviatedPath": "\/img\/spiderweb-29368_960_720.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

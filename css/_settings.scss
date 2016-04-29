@@ -4,8 +4,8 @@ $color3: lighten($color2,10%);
 $color4: #92a4ad;
 $color5: #c75c28;
 $color_font1:black;
-$color_font2:white;
-$body_color:lighten(slategrey, 30%);
+$color_font2:darken(white,20%);
+$body_color:lighten($color5, 30%);
 
 .brand-neutral {
   background-color: $color4;
@@ -29,6 +29,9 @@ $body_color:lighten(slategrey, 30%);
 }
 .brand-font2 {
   color: $color_font2;
+}
+.brand-font3 {
+  color: $color5;
 }
 
 .brand-background {

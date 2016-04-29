@@ -7,9 +7,21 @@
 
 
 body {
-  @extend .brand-background;
+
+  //background-image: url("/img/background-1201003_960_720.jpg");
 }
 
+#spider
+{
+  position:absolute;
+  height:100px;
+  width:100px;
+  right:0;
+  top:70px;
+  z-index:-1;
+
+  //@extend .right;
+}
 #logo {
   height: 50px;
   width: 300px;
@@ -36,16 +48,21 @@ body {
   border-bottom: 1px solid black;
 }
 
-/*#row1
+#row1
 {
-  position: absolute;
+  z-index:2;
+  //position: absolute;
+  //width:100%;
+  color:$color5;
 
-}*/
+}
 
 
 #row2
 {
-  //position: relative;
+  z-index:1;
+
+  position: absolute;
   img
   {
     width:30px ;
@@ -59,7 +76,7 @@ body {
 
 
 #logoContainer {
-  background: rgba(#5C84A1, .2); //linear-gradient(to right, rgba( #5C84A1, .2 ), rgba( #5C84A1, .2));
+  background: rgba($color1, .5); //linear-gradient(to right, rgba( #5C84A1, .2 ), rgba( #5C84A1, .2));
   //border-radius: 10px;
   //opacity: 0.5;
   img {
@@ -70,7 +87,7 @@ body {
 #bg-image {
   position: absolute;
   top: 64px;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
   left: 5%;
   width: 60%;
@@ -91,7 +108,9 @@ body {
 
 #spacer {
   height: 300px;
+  padding:100px;
 }
+
 
 #mainHeader {
   margin-top: 0px;
@@ -110,7 +129,8 @@ body {
 
   .links {
 
-    background-image: url("/img/web-development-outline_crop.jpg");
+    background-color: $color3;
+    //background-image: url("/img/spiderweb-29368_960_720.png");
 
   }
 
@@ -135,6 +155,11 @@ body {
   //@extend .brand-neutral;
   background-size: 100% 100%;
 
+  img
+  {
+    height:100%;
+    width:100%;
+  }
   p {
     padding: 5px 10px 10px 10px;
   }
@@ -150,36 +175,13 @@ body {
   bottom: 10px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; /* Height of the footer */
-  @extend .brand1;
-  opacity: 0.3;
-  p {
-    opacity: 1.0;
-  }
-}
 
 
-.footer-text {
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 
-}
+.page-footer {
+  color: $color_font2;
 
-#show-map
-{
-  /*position: absolute;
-  bottom: 0;
-  right: 0;*/
-  i {
-    color:black;
-  }
-  background-color: darken(white,20%);
+
 }
 
 #modal1 {

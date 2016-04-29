@@ -22,10 +22,10 @@ $.fn.extend({
 
 function onM1clicked() {
 
-    $("#row1").animateCss('slideOutLeft', function () {
+    $("#row1").animateCss('fadeOut', function () {
         $("#row1").hide();
-        $("#row2").show();
-        $("#row2").animateCss('slideInLeft');
+     /*   $("#row2").show();
+        $("#row2").animateCss('slideInLeft');*/
 
     });
 

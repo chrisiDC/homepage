@@ -1,7 +1,7 @@
 .brand-neutral, #m4, #m5, #m6, #linkbottom, .modal-footer {
   background-color: #92a4ad; }
 
-.brand1, .footer, #modal1 {
+.brand1, #modal1 {
   background-color: #3c6888; }
 
 .brand2 {
@@ -14,10 +14,13 @@
   color: black; }
 
 .brand-font2 {
-  color: white; }
+  color: #cccccc; }
 
-.brand-background, body {
-  background-color: #c6cdd3; }
+.brand-font3 {
+  color: #c75c28; }
+
+.brand-background {
+  background-color: #ebb69d; }
 
 .materialize-red {
   background-color: #e51c23 !important; }
@@ -6227,6 +6230,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
+#spider {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 0;
+  top: 70px;
+  z-index: -1; }
+
 #logo {
   height: 50px;
   width: 300px;
@@ -6246,24 +6257,26 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding-right: 5%;
   border-bottom: 1px solid black; }
 
-/*#row1
-{
-  position: absolute;
+#row1 {
+  z-index: 2;
+  color: #c75c28; }
 
-}*/
-#row2 img {
-  width: 30px;
-  height: 30px; }
+#row2 {
+  z-index: 1;
+  position: absolute; }
+  #row2 img {
+    width: 30px;
+    height: 30px; }
 
 #logoContainer {
-  background: rgba(92, 132, 161, 0.2); }
+  background: rgba(60, 104, 136, 0.5); }
   #logoContainer img {
     padding: 0; }
 
 #bg-image {
   position: absolute;
   top: 64px;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
   left: 5%;
   width: 60%;
@@ -6280,7 +6293,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   border-radius: 5px; }
 
 #spacer {
-  height: 300px; }
+  height: 300px;
+  padding: 100px; }
 
 #mainHeader {
   margin-top: 0px; }
@@ -6289,7 +6303,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-image: url("/img/bg09.jpg"); }
 
 #m2 .links {
-  background-image: url("/img/web-development-outline_crop.jpg"); }
+  background-color: #7c9cb4; }
 
 #m3 .links {
   background-image: url("/img/bulb-40701_960_720.png"); }
@@ -6299,6 +6313,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   height: 250px;
   background-repeat: no-repeat;
   background-size: 100% 100%; }
+  .links img {
+    height: 100%;
+    width: 100%; }
   .links p {
     padding: 5px 10px 10px 10px; }
 
@@ -6308,29 +6325,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .main {
   bottom: 10px; }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  /* Height of the footer */
-  opacity: 0.3; }
-  .footer p {
-    opacity: 1.0; }
-
-.footer-text {
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 0; }
-
-#show-map {
-  /*position: absolute;
-  bottom: 0;
-  right: 0;*/
-  background-color: #cccccc; }
-  #show-map i {
-    color: black; }
+.page-footer {
+  color: #cccccc; }
 
 #modal1 {
   height: 800px; }
