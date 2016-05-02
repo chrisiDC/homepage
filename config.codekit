@@ -512,6 +512,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/css\/_stickyfooter.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/_stickyfooter.scss",
+		"outputAbbreviatedPath": "\/css\/_stickyfooter.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/css\/animate.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -2092,6 +2108,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/img\/700px-Graduated_Blue_Background.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2402,
+		"inputAbbreviatedPath": "\/img\/700px-Graduated_Blue_Background.png",
+		"outputAbbreviatedPath": "\/img\/700px-Graduated_Blue_Background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/8703913582_8f144451bb_o.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2099,6 +2126,28 @@
 		"initialSize": 113232,
 		"inputAbbreviatedPath": "\/img\/8703913582_8f144451bb_o.jpg",
 		"outputAbbreviatedPath": "\/img\/8703913582_8f144451bb_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/apple-157031_960_720.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123746,
+		"inputAbbreviatedPath": "\/img\/apple-157031_960_720.png",
+		"outputAbbreviatedPath": "\/img\/apple-157031_960_720.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/apple-desk-working-technology.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.88774e+06,
+		"inputAbbreviatedPath": "\/img\/apple-desk-working-technology.jpg",
+		"outputAbbreviatedPath": "\/img\/apple-desk-working-technology.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2231,6 +2280,17 @@
 		"initialSize": 1.03425e+07,
 		"inputAbbreviatedPath": "\/img\/coffee-apple-iphone-laptop.jpg",
 		"outputAbbreviatedPath": "\/img\/coffee-apple-iphone-laptop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/grayfull.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54891,
+		"inputAbbreviatedPath": "\/img\/grayfull.jpg",
+		"outputAbbreviatedPath": "\/img\/grayfull.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2506,6 +2566,17 @@
 		"initialSize": 40288,
 		"inputAbbreviatedPath": "\/img\/webdev.jpg",
 		"outputAbbreviatedPath": "\/img\/webdev.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/website-background-patterns-28-hd-background-and-wallpaper.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11054,
+		"inputAbbreviatedPath": "\/img\/website-background-patterns-28-hd-background-and-wallpaper.jpg",
+		"outputAbbreviatedPath": "\/img\/website-background-patterns-28-hd-background-and-wallpaper.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

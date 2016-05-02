@@ -3,12 +3,14 @@ $color2: #5C84A1;
 $color3: lighten($color2,10%);
 $color4: #92a4ad;
 $color5: #c75c28;
+$color6: darken(white,8%);//#ffd54f;//brown;//rgba(lime,.2 );
 $color_font1:black;
 $color_font2:darken(white,20%);
 $body_color:lighten($color5, 30%);
 
 .brand-neutral {
   background-color: $color4;
+
 }
 
 .brand1 {
