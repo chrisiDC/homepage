@@ -6,8 +6,14 @@
 body {
 
   //background-image: url("/img/background-1201003_960_720.jpg");
+  width: 100%; text-align: center;
 }
 
+/*.container
+{
+  width:900px !important;
+  max-width: 900px !important;
+}*/
 html {
 
   background: url("/img/700px-Graduated_Blue_Background.png") no-repeat center center fixed;
@@ -15,7 +21,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  //max-width: 1024px;
   //background: radial-gradient(circle, black, white);
 }
 
@@ -109,6 +115,7 @@ main {
   left: 5%;
   width: 60%;
   height: 300px;
+
 
   @media #{$small-and-down} {
     height: 20%;
@@ -210,7 +217,8 @@ main {
     height: 150px;
   }
   @media #{$small-and-down} {
-    height: 150px;
+    height: 250px;
+
   }
 
 }
