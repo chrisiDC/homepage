@@ -223,7 +223,7 @@ main {
   width: 100%;
 
   @media #{$large-and-up} {
-    height: 250px;
+    height: 170px;
 
   }
   @media #{$medium-only} {
@@ -235,6 +235,7 @@ main {
   }
 
 }
+
 
 #linkbottom {
   background-color: $color5; // rgba(black, .8);;

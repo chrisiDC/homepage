@@ -6376,7 +6376,7 @@ main {
   width: 100%; }
   @media only screen and (min-width: 1201px) {
     .main-image {
-      height: 250px; } }
+      height: 170px; } }
   @media only screen and (min-width: 601px) and (max-width: 1200px) {
     .main-image {
       height: 150px; } }
