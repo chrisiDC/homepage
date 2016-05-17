@@ -2190,7 +2190,7 @@ video.responsive-video {
   display: inline-block;
   float: none; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .pagination {
     width: 100%; }
     .pagination li.prev,
@@ -2272,7 +2272,7 @@ ul.staggered-list li {
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .hide-on-med-and-down {
     display: none !important; } }
 
@@ -2280,19 +2280,19 @@ ul.staggered-list li {
   .hide-on-med-and-up {
     display: none !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .hide-on-med-only {
     display: none !important; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1201px) {
   .hide-on-large-only {
     display: none !important; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1201px) {
   .show-on-large {
     display: block !important; } }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
   .show-on-medium {
     display: block !important; } }
 
@@ -2304,7 +2304,7 @@ ul.staggered-list li {
   .show-on-medium-and-up {
     display: block !important; } }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .show-on-medium-and-down {
     display: block !important; } }
 
@@ -2353,7 +2353,7 @@ td, th {
   vertical-align: middle;
   border-radius: 2px; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -2635,7 +2635,7 @@ input[type=range] + .thumb {
   .container {
     width: 85%; } }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1201px) {
   .container {
     width: 70%; } }
 
@@ -2932,7 +2932,7 @@ input[type=range] + .thumb {
         right: 100%; }
       .row .col.push-m12 {
         left: 100%; } }
-    @media only screen and (min-width: 993px) {
+    @media only screen and (min-width: 1201px) {
       .row .col.l1 {
         width: 8.3333333333%;
         margin-left: auto;
@@ -3084,7 +3084,7 @@ nav {
   nav .nav-wrapper {
     position: relative;
     height: 100%; }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1201px) {
     nav a.button-collapse {
       display: none; } }
   nav .button-collapse {
@@ -3106,7 +3106,7 @@ nav {
     nav .brand-logo.center {
       left: 50%;
       transform: translateX(-50%); }
-    @media only screen and (max-width: 992px) {
+    @media only screen and (max-width: 1200px) {
       nav .brand-logo {
         left: 50%;
         transform: translateX(-50%); }
@@ -3220,10 +3220,10 @@ html {
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
-  @media only screen and (min-width: 992px) {
+  @media only screen and (min-width: 1200px) {
     html {
       font-size: 14.5px; } }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1400px) {
     html {
       font-size: 15px; } }
 
@@ -3284,64 +3284,64 @@ small {
   @media only screen and (min-width: 360px) {
     .flow-text {
       font-size: 1.2rem; } }
-  @media only screen and (min-width: 390px) {
+  @media only screen and (min-width: 400px) {
     .flow-text {
       font-size: 1.224rem; } }
-  @media only screen and (min-width: 420px) {
+  @media only screen and (min-width: 440px) {
     .flow-text {
       font-size: 1.248rem; } }
-  @media only screen and (min-width: 450px) {
-    .flow-text {
-      font-size: 1.272rem; } }
   @media only screen and (min-width: 480px) {
     .flow-text {
+      font-size: 1.272rem; } }
+  @media only screen and (min-width: 520px) {
+    .flow-text {
       font-size: 1.296rem; } }
-  @media only screen and (min-width: 510px) {
+  @media only screen and (min-width: 560px) {
     .flow-text {
       font-size: 1.32rem; } }
-  @media only screen and (min-width: 540px) {
-    .flow-text {
-      font-size: 1.344rem; } }
-  @media only screen and (min-width: 570px) {
-    .flow-text {
-      font-size: 1.368rem; } }
   @media only screen and (min-width: 600px) {
     .flow-text {
+      font-size: 1.344rem; } }
+  @media only screen and (min-width: 640px) {
+    .flow-text {
+      font-size: 1.368rem; } }
+  @media only screen and (min-width: 680px) {
+    .flow-text {
       font-size: 1.392rem; } }
-  @media only screen and (min-width: 630px) {
-    .flow-text {
-      font-size: 1.416rem; } }
-  @media only screen and (min-width: 660px) {
-    .flow-text {
-      font-size: 1.44rem; } }
-  @media only screen and (min-width: 690px) {
-    .flow-text {
-      font-size: 1.464rem; } }
   @media only screen and (min-width: 720px) {
     .flow-text {
-      font-size: 1.488rem; } }
-  @media only screen and (min-width: 750px) {
+      font-size: 1.416rem; } }
+  @media only screen and (min-width: 760px) {
     .flow-text {
-      font-size: 1.512rem; } }
-  @media only screen and (min-width: 780px) {
+      font-size: 1.44rem; } }
+  @media only screen and (min-width: 800px) {
     .flow-text {
-      font-size: 1.536rem; } }
-  @media only screen and (min-width: 810px) {
-    .flow-text {
-      font-size: 1.56rem; } }
+      font-size: 1.464rem; } }
   @media only screen and (min-width: 840px) {
     .flow-text {
+      font-size: 1.488rem; } }
+  @media only screen and (min-width: 880px) {
+    .flow-text {
+      font-size: 1.512rem; } }
+  @media only screen and (min-width: 920px) {
+    .flow-text {
+      font-size: 1.536rem; } }
+  @media only screen and (min-width: 960px) {
+    .flow-text {
+      font-size: 1.56rem; } }
+  @media only screen and (min-width: 1000px) {
+    .flow-text {
       font-size: 1.584rem; } }
-  @media only screen and (min-width: 870px) {
+  @media only screen and (min-width: 1040px) {
     .flow-text {
       font-size: 1.608rem; } }
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 1080px) {
     .flow-text {
       font-size: 1.632rem; } }
-  @media only screen and (min-width: 930px) {
+  @media only screen and (min-width: 1120px) {
     .flow-text {
       font-size: 1.656rem; } }
-  @media only screen and (min-width: 960px) {
+  @media only screen and (min-width: 1160px) {
     .flow-text {
       font-size: 1.68rem; } }
   @media only screen and (max-width: 360px) {
@@ -3448,12 +3448,12 @@ small {
     #toast-container {
       min-width: 100%;
       bottom: 0%; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
     #toast-container {
       left: 5%;
       bottom: 7%;
       max-width: 90%; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1201px) {
     #toast-container {
       top: 10%;
       right: 7%;
@@ -3488,10 +3488,10 @@ small {
     .toast {
       width: 100%;
       border-radius: 0; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
     .toast {
       float: left; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1201px) {
     .toast {
       float: right; } }
 
@@ -3859,7 +3859,7 @@ a.waves-effect .waves-ripple {
   overflow-y: auto;
   border-radius: 2px;
   will-change: top, opacity; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1200px) {
     .modal {
       width: 80%; } }
   .modal h1, .modal h2, .modal h3, .modal h4 {
@@ -4360,7 +4360,7 @@ textarea.materialize-textarea {
     padding-top: .8rem; }
   .input-field .prefix ~ label {
     margin-left: 3rem; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1200px) {
     .input-field .prefix ~ input {
       width: 86%;
       width: calc(100% - 3rem); } }
@@ -5094,7 +5094,7 @@ input[type=range]:focus::-ms-fill-upper {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
   .side-nav.fixed {
     transform: translateX(-105%); }
     .side-nav.fixed.right-aligned {
@@ -6231,17 +6231,16 @@ body {
   width: 100%;
   text-align: center; }
 
-/*.container
-{
-  width:900px !important;
-  max-width: 900px !important;
-}*/
+.container {
+  width: 100% !important; }
+
 html {
   background: url("/img/700px-Graduated_Blue_Background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  width: 100%; }
 
 body {
   display: flex;
@@ -6254,25 +6253,22 @@ footer {
 
 #box1 {
   position: absolute;
-  background-color: black;
-  width: 500px;
-  height: 6px;
-  right: 0px;
+  background-color: #c75c28;
+  width: 350px;
+  height: 2px;
+  right: 18%;
   top: 50px;
   z-index: -2; }
 
 #spider {
   position: absolute;
-  height: 60px; }
+  height: 80px; }
 
 main {
   flex: 1 0 auto; }
 
 #logo {
-  height: 50px;
-  width: 300px;
-  padding-top: 10px;
-  right: 20px; }
+  padding-top: 10px; }
 
 .collection .collection-item {
   border-bottom: 1px solid black; }
@@ -6306,11 +6302,12 @@ main {
   z-index: -1;
   left: 5%;
   width: 60%;
-  height: 300px; }
+  height: 300px;
+  max-width: 800px; }
   @media only screen and (max-width: 600px) {
     #bg-image {
       height: 20%; } }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1201px) {
     #bg-image {
       height: 400px; } }
 
@@ -6325,32 +6322,37 @@ main {
   border-radius: 5px; }
 
 #logo-container {
-  height: 500px;
-  position: absolute; }
-  @media only screen and (min-width: 993px) {
-    #logo-container {
-      top: 50px;
-      right: 200px; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
-    #logo-container {
-      top: 20px;
-      right: 10px; } }
-  @media only screen and (max-width: 600px) {
-    #logo-container {
-      top: 20px;
-      right: 10px; } }
+  padding: 20px;
+  /*@media only screen and (min-width : 1201px) {
+    top: 50px;
+    right: 30%;
 
-@media only screen and (max-width: 600px) {
-  #spacer {
-    height: 20px; } }
+  }
 
-@media only screen and (min-width: 601px) {
-  #spacer {
-    height: 500px; } }
+  @media only screen and (min-width : 601px) and (max-width : 1200px) {
+    top: 20px;
+    right: 10%;
+  }
+  @media only screen and (max-width : 600px) {
+    top: 20px;
+    right: 10px;
+  }*/ }
+
+#spacer-top {
+  height: 100px; }
+
+#spacer {
+  height: 150px; }
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    #spacer {
+      height: 50px; } }
+
+#mainpic {
+  width: 100%;
+  max-height: 450px; }
 
 .titles {
-  margin-bottom: 0px;
-  background-color: #3c6888; }
+  margin-bottom: 0px; }
 
 .title1 {
   background-color: #3c6888; }
@@ -6372,10 +6374,10 @@ main {
 
 .main-image {
   width: 100%; }
-  @media only screen and (min-width: 993px) {
+  @media only screen and (min-width: 1201px) {
     .main-image {
       height: 250px; } }
-  @media only screen and (min-width: 601px) and (max-width: 992px) {
+  @media only screen and (min-width: 601px) and (max-width: 1200px) {
     .main-image {
       height: 150px; } }
   @media only screen and (max-width: 600px) {

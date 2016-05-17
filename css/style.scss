@@ -6,14 +6,15 @@
 body {
 
   //background-image: url("/img/background-1201003_960_720.jpg");
-  width: 100%; text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
-/*.container
-{
-  width:900px !important;
-  max-width: 900px !important;
-}*/
+.container {
+  width: 100% !important;
+
+}
+
 html {
 
   background: url("/img/700px-Graduated_Blue_Background.png") no-repeat center center fixed;
@@ -22,6 +23,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   //max-width: 1024px;
+  width: 100%;
   //background: radial-gradient(circle, black, white);
 }
 
@@ -41,17 +43,17 @@ footer {
 
 #box1 {
   position: absolute;
-  background-color: black;
-  width: 500px;
-  height: 6px;
-  right: 0px;
+  background-color: $color5;
+  width: 350px;
+  height: 2px;
+  right: 18%;
   top: 50px;
   z-index: -2;
 }
 
 #spider {
   position: absolute;
-  height: 60px;
+  height: 80px;
 }
 
 main {
@@ -59,10 +61,11 @@ main {
 }
 
 #logo {
-  height: 50px;
-  width: 300px;
+  //height: 50px;
+  //width: 300px;
   padding-top: 10px;
-  right: 20px;
+
+  //right: 20px;
 }
 
 .collection .collection-item {
@@ -115,7 +118,7 @@ main {
   left: 5%;
   width: 60%;
   height: 300px;
-
+  max-width: 800px;
 
   @media #{$small-and-down} {
     height: 20%;
@@ -143,54 +146,65 @@ main {
 }
 
 #logo-container {
-  height: 500px;
-  position: absolute;
+  padding:20px;
+  //height: 500px;
+  //top:300px;
 
-  @media #{$large-and-up} {
+  //position: absolute;
+
+  /*@media #{$large-and-up} {
     top: 50px;
-    right: 200px;
+    right: 30%;
 
   }
+
   @media #{$medium-only} {
     top: 20px;
-    right: 10px;
+    right: 10%;
   }
   @media #{$small-and-down} {
     top: 20px;
     right: 10px;
-  }
+  }*/
+}
+
+#spacer-top {
+
+  //padding: 100px;
+
+  height: 100px;
+
 }
 
 #spacer {
 
-  //padding: 100px;
-
-  @media #{$small-and-down} {
-    height: 20px;
-  }
-  @media #{$medium-and-up} {
-    height: 500px;
+  height: 150px;
+  @media #{$medium-only} {
+    height: 50px;
   }
 
 }
-.titles
-{
+
+#mainpic {
+  width: 100%;
+
+  max-height: 450px;
+}
+
+.titles {
   margin-bottom: 0px;
+  //background-color: $color1;
+}
+
+.title1 {
   background-color: $color1;
 }
 
-.title1
-{
-  background-color: $color1;
-}
-
-.title2
-{
+.title2 {
   background-color: $color2;
 }
 
-.title3
-{
+.title3 {
   background-color: $color3;
 }
 
@@ -199,15 +213,14 @@ main {
   color: $color4;
 }
 
-.leftright-border
-{
-  border-style:none solid;
+.leftright-border {
+  border-style: none solid;
   border-width: 4px;
-  border-color:$color5;
+  border-color: $color5;
 }
+
 .main-image {
   width: 100%;
-
 
   @media #{$large-and-up} {
     height: 250px;
@@ -222,7 +235,6 @@ main {
   }
 
 }
-
 
 #linkbottom {
   background-color: $color5; // rgba(black, .8);;
